@@ -54,7 +54,7 @@ function Preview() {
               username: 'Pururaj',
               read: false,
               //profile,
-              timestamp: firebase.firestore.FieldValue.serverTimeStamp(),
+              timestamp: firebase.firestore.FieldValue.serverTimestamp(),
             })
           });
         history.replace("./chats");
